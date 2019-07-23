@@ -1,5 +1,9 @@
 a = int(input());
-if(a%2==0):
-  print("no");
-else:
-  print("yes");
+for i in range(2,a):
+  if(a%i==0):
+    print("no");
+    
+    break;
+  else:
+    print("yes");
+    break;
